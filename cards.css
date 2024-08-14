@@ -1,0 +1,32 @@
+body{
+    background-color: white;
+}
+img{
+    width: 50%;
+    border-radius: 1000px;
+}
+#father{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mother{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(50, 45, 45);
+    margin: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 500px){
+    .mother{
+        background-image: url("Monterey.jpg");
+    }
+    #father{
+        flex-direction: column;
+        background-color: black;
+    }
+    h3, p{
+        color: white;
+    }
+}
